@@ -1,0 +1,6 @@
+echo "<script>
+			    let str = '$email';
+                 let at = str.replace(/@/gi,'AT');
+                  let newStr = at.replace(/\./g,'');
+			    '$username' = newStr;
+			</script>";
