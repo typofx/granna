@@ -7,7 +7,7 @@
 // </script>
 // 
 // <button onclick="detectLanguage()">Try it</button>
-
+// <p> <?php echo $PaymentMethods ?></p>
 <?php
 
 $language = substr ($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
